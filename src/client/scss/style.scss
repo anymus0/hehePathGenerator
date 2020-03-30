@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(24, 26, 27);
+  color: rgb(218, 215, 210);
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+#genButton {
+  font-size: 2rem;
+}
+
+#heheText {
+  padding: 2rem;
+  font-size: xx-large;
+  overflow-wrap: break-word;
+  background-color: #0000004f;
+}
+
+.lilM {
+  margin: 2rem 0rem;
+}

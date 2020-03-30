@@ -1,0 +1,23 @@
+{
+  "name": "heheGEN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "parcel src/client/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
